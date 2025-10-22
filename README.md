@@ -4,7 +4,8 @@ A unified Python interface for all major Large Language Model (LLM) providers. S
 
 ## Features
 
-- **Unified Interface**: One API for all LLM providers
+- **🌐 Web Interface**: Beautiful Streamlit app for easy interaction with all LLM providers
+- **Unified API**: One consistent interface for all LLM providers
 - **Easy Provider Switching**: Change providers with a single line of code
 - **Consistent Response Format**: Standardized output across all providers
 - **Streaming Support**: Real-time response streaming from all providers
@@ -38,7 +39,37 @@ pip install -r requirements.txt
 pip install -e ".[dev]"
 ```
 
-## Quick Start
+## 🌐 Web Interface (Streamlit)
+
+The easiest way to get started is with our beautiful web interface!
+
+### Launch the Web App
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py
+```
+
+The app will open automatically in your browser at `http://localhost:8501`
+
+### Web Interface Features
+
+- 🎨 **Modern Dark Theme**: Beautiful, eye-friendly interface
+- 🔌 **Provider Selection**: Easy dropdown to switch between all 6 LLM providers
+- 🎯 **Model Selection**: Choose from available models for each provider
+- 🔑 **API Key Management**: Secure input with environment variable support
+- 💬 **Chat History**: Full conversation history with context
+- ⚡ **Real-time Streaming**: See responses as they're generated
+- 🎛️ **Adjustable Parameters**: Control temperature, max tokens, and more
+- 📊 **Usage Statistics**: Track messages, conversations, and tokens
+- 🌍 **Portuguese Interface**: Fully localized UI
+
+![Streamlit Interface](https://via.placeholder.com/800x400?text=LLMs+All-in-One+Interface)
+
+## Quick Start (Python API)
 
 ### 1. Set up your API keys
 
