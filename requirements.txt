@@ -12,3 +12,6 @@ huggingface-hub>=0.20.0
 # Optional dependencies for advanced features
 requests>=2.31.0
 aiohttp>=3.9.0  # For async support (future enhancement)
+
+# Web Interface
+streamlit>=1.28.0
